@@ -1,0 +1,20 @@
+body{
+	background:#ddd;
+	background-size: cover;
+    background-image: url(/images/Bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height:100%;
+	font:14px "Roboto",Arial,Tahoma;
+}
+.transBG{background:rgba(256,256,256,0.40);  box-shadow: 1px 3px 3px #000;}
+.Orange{background:#EB6E1F;color:#fff;}
+.Imgright{float:right;}	
+.marginBottom0{margin-bottom:0px;}
+@media all and (max-width: 430px) and (min-width: 100px){
+  .Imgright{display:none;}	
+}
+
+.message{ background-color: #f2dede;  padding: 8px;margin-bottom:10px;position:relative;}
+.message:after{content:"Close",position:absolute;right:0;}
+

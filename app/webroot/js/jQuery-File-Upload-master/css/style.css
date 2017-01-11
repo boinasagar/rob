@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example 8.8.2
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+body {
+  padding-top: 60px;
+}
+
+.bar {
+    height: 5px;
+    background: green;
+}
+#AddLedgerForm input[type='file'] {
+  color: transparent;
+   width: 75px;
+}
+#AddLedgerForm .fileinput-button
+{
+	min-width:0;
+}
+
+.btn-success
+{
+	width :100px;
+}
